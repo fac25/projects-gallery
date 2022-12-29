@@ -23,7 +23,7 @@ const data = {
       projects: [
         {
           title: "Microblogging",
-          img: "assets/microblogging.png",
+          img: "src/imgs/microblogging.png",
           team: ["Sumithra", "Joe", "Yassien", "Suraj"],
           github: "https://github.com/fac25/week1-server-sumithra-joe-yassien-suraj",
           description: "Our microblogging website allows the user to make comments and read the comments of other users.",
@@ -178,37 +178,88 @@ const data = {
       theme: "Full-stack App",
       projects: [
         {
-          title: "Planty",
-          img: "assets/.png",
-          team: ["Abby", "Lisa", "Paz", "Suraj"],
-          github: "https://github.com/fac25/week-6_ASLP",
-          description: "As an plant lover, I want to see an overview of the plants available",
-        },
-        {
-          title: "JAMP on a book",
-          img: "",
-          team: ["Joe", "Manoela", "Abdullah", "Patrick"],
-          github: "https://github.com/fac25/week6-J-A-M-P",
-          description: "It's a store that displays a list of books for purchase",
-        },
-        {
-          title: "Miss Mac's",
-          img: "",
-          team: ["Alex", "Karwan", "Sumithra", "Yassien"],
+          title: "Miss Macs",
+          img: "src/imgs/missmacs.png",
+          team: ["Karwan", "Alex", "Sumithra", "Yassien"],
           github: "https://github.com/fac25/week6-missmacs",
-          description: "",
-        }
+          description: "A food delivery app",
+        },
+        {
+          title: "JAMP on a Book",
+          img: "", //need to ask for the img
+          team: ["Manoela", "Abdullah", "Patrick", "Joe"],
+          github: "https://github.com/fac25/week6-J-A-M-P",
+          description:
+            "It's a store that displays a list of books for purchase",
+        },
+        {
+          title: "Planty",
+          img: "src/imgs/planty.png",
+          team: ["Abby ", "Lisa", "Paz", "Suraj"],
+          github: "https://github.com/fac25/week-6_ASLP",
+          description: "A plants shopping platform",
+        },
       ],
     },
     {
       week: 7,
       theme: "In-House Final Projects (Weeks 7-9)",
-      projects: [],
+      projects: [
+        {
+          title: "Away Days",
+          img: "", //can't run the app
+          team: ["Karwan", "Alex", "Patrick", "Suraj"],
+          github: "https://github.com/fac25/week7-away-days",
+          description:
+            "It became apparent that there was a hole to be filled with platform to bring together sports fans. What if Couchsurfing met Meetup? This mashup is what we decided to build.",
+        },
+        {
+          title: "Seasonal Calendar",
+          img: "src/imgs/sesonal-calendar.png",
+          team: ["Lisa", "Abby", "Paz", "Joe"],
+          github: "https://github.com/fac25/week7-seasonal-calendar",
+          description:
+            "Seasonal produce generally requires fewer chemicals and the food miles are often significantly lower as product is grown more locally. This keeps the environmental impact, as well as the cost lower.",
+        },
+        {
+          title: "Bookbrooch",
+          img: "src/imgs/bookbrooch.png",
+          team: ["Abdullah", "Manoela", "Yassien", "Sumithra"],
+          github: "https://github.com/fac25/bookbrooch",
+          description:
+            "An app where users can save their favorite quotes, search for more quotes and play quote-related games.",
+        },
+      ],
     },
     {
       week: 10,
       theme: "Tech for Better Projects (Weeks 10-12)",
-      projects: [],
+      projects: [
+        {
+          title: "AMAI-MTOTO",
+          img: "src/imgs/amai-mtoto.png",
+          team: ["Sumithra", "Alex", "Patrick", "Yassien"],
+          github: "https://github.com/fac25/amai-mtoto",
+          description:
+            "An app for pregnant women from an African/Carribbean background to get advice and support for their mental and physical wellbeing to improve their health outcomes during and after pregnancy.",
+        },
+        {
+          title: "Cocoon Kids",
+          img: "src/imgs/cocoon_kids.png",
+          team: ["Lisa", "Karwan", "Paz", "Abdullah"],
+          github: "https://github.com/fac25/tfb-cocoon-kids-big-hug",
+          description:
+            "Cocoon Kids Big Hug is a therapeutic service for children and young adults and parents.",
+        },
+        {
+          title: "Immersive Empathy Training-IET",
+          img: "src/imgs/IET.png",
+          team: ["Joe", "Manoela", "Abby", "Suraj"],
+          github: "https://github.com/fac25/IET-Kebbah",
+          description:
+            "Our programme will guild the user through a course using a series of questions and videos to bring awareness to their potential unconscious bias.",
+        },
+      ],
     },
   ],
   people: [],
