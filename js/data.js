@@ -50,7 +50,7 @@ const data = {
       projects: [
         {
           title: "London Attractions Reviews",
-          img: "assets/.png",
+          img: "src/imgs/london-attractions.png",
           team: ["Sumithra", "Joe", "Abdullah", "Paz"],
           github: "https://github.com/fac25/week2-db-Sumithra-Joe-Paz-Abdullah",
           description: "Our London attractions reviews application allows the user to review the most popular attractions",
@@ -77,7 +77,7 @@ const data = {
       projects: [
         {
           title: "Bookzie",
-          img: "assets/.png",
+          img: "src/imgs/bookzie.png",
           team: ["Abby", "Patrick", "Lisa", "Sumithra"],
           github: "https://github.com/fac25/week3-authentication-Abby-Sumithra-Patrick-Lisa",
           description: "Our objective was to create a service which would allow our users to log their reading lists as well as recommend the books to others. The main page would be a collection of all the recommended books - from all users.",
@@ -131,35 +131,35 @@ const data = {
       projects: [
         {
           title: "Hangman",
-          img: "assets/.png",
+          img: "src/imgs/hangman.png",
           team: ["Paz", "Karwan"],
           github: "https://github.com/fac25/week5-paz-karwan",
           description: "",
         },
         {
           title: "Tic Tac Toe",
-          img: "",
+          img: "src/imgs/tic-tac-toe.png",
           team: ["Alex", "Sumithra"],
           github: "https://github.com/fac25/week5-Alex-Sumithra-ClientReactApp",
           description: "",
         },
         {
           title: "Flip - Card Memory Game",
-          img: "",
+          img: "src/imgs/flip.png",
           team: ["Abby", "Joe"],
           github: "https://github.com/fac25/week5-Abby-Joe",
           description: "The user flips two cards. If the two cards match, the user will get one point, and the cards will remain flipped.",
         },
         {
           title: "Memory Game",
-          img: "assets/.png",
+          img: "src/imgs/memory.png",
           team: ["Lisa", "Yassien", "Manoela"],
           github: "https://github.com/fac25/fac25-week5-Lisa-Manoela",
           description: "This is a one-page app using React to create an interactive memory game",
         },
         {
           title: "PKC",
-          img: "",
+          img: "src/imgs/pkc.png",
           team: ["Patrick", "Abdullah", "Suraj"],
           github: "https://github.com/fac25/week-5-p-a-s",
           description: "It's a piano that counts the amount of keys you press. It has sound...",
