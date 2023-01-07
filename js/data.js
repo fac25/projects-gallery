@@ -73,6 +73,13 @@ const data = {
           description:
             "Hangman is a quick and easy game for at least two people that requires nothing more than paper, a pencil, and the ability to spell.",
         },
+        {
+          title: "Tic Tac Toe",
+          img: "src/imgs/tic_tac_toe.png",
+          team: ["Alex", "Sumithra"],
+          github: "https://github.com/fac25/week5-Alex-Sumithra-ClientReactApp",
+          description: "A Tic Tac Toe game",
+        },
       ],
     },
     {
