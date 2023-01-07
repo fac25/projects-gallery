@@ -40,7 +40,40 @@ const data = {
     {
       week: 5,
       theme: "Client-Side App",
-      projects: [],
+      projects: [
+        {
+          title: "Flip - Card Memory Game",
+          img: "src/imgs/flip_abby_joe.png",
+          team: ["Abby, Joe"],
+          github: "https://github.com/fac25/week5-Abby-Joe",
+          description:
+            "The user flips two cards. If the two cards match, the user will get one point, and the cards will remain ‘flipped’.",
+        },
+        {
+          title: "PKC",
+          img: "src/imgs/piano_PKC.png",
+          team: ["Abdullah", "Patrick", "Suraj"],
+          github: "https://github.com/fac25/week-5-p-a-s",
+          description:
+            "It's a piano that counts the amount of keys you press. It has sound...",
+        },
+        {
+          title: "Memory game",
+          img: "src/imgs/memory_game_LMA.png",
+          team: ["Lisa", "Manoela", "Yassien"],
+          github: "https://github.com/fac25/fac25-week5-Lisa-Manoela",
+          description:
+            "This is a one-page app using React to create an interactive memory game",
+        },
+        {
+          title: "Hangman",
+          img: "src/imgs/hangman_paz_karwan.png",
+          team: ["Paz", "Karwan"],
+          github: "https://github.com/fac25/week5-paz-karwan",
+          description:
+            "Hangman is a quick and easy game for at least two people that requires nothing more than paper, a pencil, and the ability to spell.",
+        },
+      ],
     },
     {
       week: 6,
