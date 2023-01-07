@@ -10,7 +10,46 @@ const data = {
     {
       week: -1,
       theme: "HTTP - second project of part time course",
-      projects: [],
+      projects: [
+        {
+          title: "Movie Finder",
+          img: "src/imgs/HTTP_movie_finder.png",
+          team: ["Lisa", "Abdullah"],
+          github: "https://github.com/fac25/Week5-https-project-Abdullah-Lisa",
+          description: "a Movie Finder.",
+        },
+        {
+          title: "Countries of the world",
+          img: "src/imgs/HTTP-Countries_of_the_world.png",
+          team: ["Paz", "Alex"],
+          github: "https://github.com/fac25/week5-http-Alex-Paz",
+          description:
+            "Select a country from the dropdown menu. A box will appear with some facts about that country as well as some news articles and the local time.",
+        },
+        {
+          title: "SK MOVIES",
+          img: "src/imgs/SK_MOVIES.png",
+          team: ["Karwan", "Suraj"],
+          github: "https://github.com/fac25/HTTP_project_suraj-karwan",
+          description: "a movie searching website",
+        },
+        {
+          title: "Postcode Crime Checker",
+          img: "src/imgs/HTTP_Postcode_Crime_Checker.png",
+          team: ["Yassien", "Sumithra"],
+          github: "https://github.com/fac25/Week5-ProjectHttp-Yassien-Sumithra",
+          description:
+            "An app that queries the Postcode and Police APIs and uses the results to display the latest crime figures for the month.",
+        },
+        {
+          title: "Game of Thrones / Movie Project",
+          img: "src/imgs/HTTP_GOT.png",
+          team: ["Joe", "Abby"],
+          github: "https://github.com/fac25/Week5-http-project-Joe-Abby",
+          description:
+            "The user can search for their favourite Game of Thrones character using the search bar. It will provide the user with a brief synopsis of the character's life. It will include who they were played by in the TV series, the character's DOB, title, and more information from the books.",
+        },
+      ],
     },
     {
       week: 0,
@@ -19,7 +58,7 @@ const data = {
         {
           title: "To-Do List-Abby/Patrick",
           img: "src/imgs/to-do_list_Abby_Patrick.png",
-          team: ["Abby, Patrick"],
+          team: ["Abby", "Patrick"],
           github: "https://github.com/fac25/Week8_TestingProject_Patrick_Abby",
           description:
             "A to-do list tracker- It should allow users to create, complete and delete tasks from a list.",
