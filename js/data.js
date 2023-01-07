@@ -35,7 +35,33 @@ const data = {
     {
       week: 4,
       theme: "Server-Side App",
-      projects: [],
+      projects: [
+        {
+          title: "Howdie",
+          img: "src/imgs/howdie.png",
+          team: ["Sumithra", "Suraj", "Manoela", "Karwan"],
+          github:
+            "https://github.com/fac25/week4-karwan-manoela-sumithra-suraj",
+          description:
+            "A website for users to share and view other users how to guide.",
+        },
+        {
+          title: "Petsagram",
+          img: "src/imgs/petsagram.png",
+          team: ["Abdullah", "Joe", "Alex", "Lisa"],
+          github: "https://github.com/fac25/week4-alex-abdullah-joe-lisa",
+          description: "A place to post about your pet :)",
+        },
+        {
+          title: "Check-in Questions app.",
+          img: "src/imgs/check-in-question-pool.png",
+          team: ["Abby", "Patrick", "PAz", "Yassien"],
+          github:
+            "https://github.com/fac25/week4-server-side-app-Abby-Patrick-Paz-Yassien",
+          description:
+            "Our objective was to create a service which would allow our users to log their check-in questions as well as see the ones posted by others. The main page would be a collection of all the check-in questions - from the logged-in user.",
+        },
+      ],
     },
     {
       week: 5,
