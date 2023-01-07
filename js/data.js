@@ -20,7 +20,32 @@ const data = {
     {
       week: 1,
       theme: "Server",
-      projects: [],
+      projects: [
+        {
+          title: "Gebloggt",
+          img: "src/imgs/Gebloggt.png",
+          team: ["Abdullah", "Karwan", "Abby", "Lisa"],
+          github: "https://github.com/fac25/abby-abdulla-karwan-lisa-server",
+          description:
+            "This project was made during our first week of FAC full-time bootcamp. Building a project that incorporates the basic functionality of a blog.",
+        },
+        {
+          title: "Twooter",
+          img: "src/imgs/Twooter.png",
+          team: ["Alex", "Manoela", "Patrick", "Paz"],
+          github: "https://github.com/fac25/unnamed-microblog",
+          description: "Server Project Microblogging.",
+        },
+        {
+          title: "Microblogging-about food!",
+          img: "src/imgs/Food_ Opinions.png",
+          team: ["Joe", "Suraj", "Yassien", "Sumithra"],
+          github:
+            "https://github.com/fac25/week1-server-sumithra-joe-yassien-suraj",
+          description:
+            "On our microblogging website allows the user to make comments and read the comments of other users.",
+        },
+      ],
     },
     {
       week: 2,
@@ -46,7 +71,7 @@ const data = {
         {
           title: "London Attractions Reviews",
           img: "src/imgs/london_attractions.png",
-          team: ["JOe", "Paz", "Abdullah", "Sumithra"],
+          team: ["Joe", "Paz", "Abdullah", "Sumithra"],
           github: "https://github.com/fac25/week2-db-Sumithra-Joe-Paz-Abdullah",
           description:
             "Our London attractions reviews application allows the user to review the most popular attractions",
