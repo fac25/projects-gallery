@@ -20,27 +20,170 @@ const data = {
     {
       week: 1,
       theme: "Server",
-      projects: [],
+      projects: [
+        {
+          title: "Gebloggt",
+          img: "src/imgs/Gebloggt.png",
+          team: ["Abdullah", "Karwan", "Abby", "Lisa"],
+          github: "https://github.com/fac25/abby-abdulla-karwan-lisa-server",
+          description:
+            "This project was made during our first week of FAC full-time bootcamp. Building a project that incorporates the basic functionality of a blog.",
+        },
+        {
+          title: "Twooter",
+          img: "src/imgs/Twooter.png",
+          team: ["Alex", "Manoela", "Patrick", "Paz"],
+          github: "https://github.com/fac25/unnamed-microblog",
+          description: "Server Project Microblogging.",
+        },
+        {
+          title: "Microblogging-about food!",
+          img: "src/imgs/Food_ Opinions.png",
+          team: ["Joe", "Suraj", "Yassien", "Sumithra"],
+          github:
+            "https://github.com/fac25/week1-server-sumithra-joe-yassien-suraj",
+          description:
+            "On our microblogging website allows the user to make comments and read the comments of other users.",
+        },
+      ],
     },
     {
       week: 2,
       theme: "Database",
-      projects: [],
+      projects: [
+        {
+          title: "MyMusic",
+          img: "src/imgs/mymusic.png",
+          team: ["Alex", "Suraj", "Abby", "Manoela"],
+          github: "https://github.com/fac25/alex-abby-manoela-suraj-database-B",
+          description:
+            "A music sharing app where you can share your favourite songs for your friends!",
+        },
+        {
+          title: "Finsbo",
+          img: "src/imgs/finsbo.png",
+          team: ["Karwan", "Lisa", "Patrick", "Yassien"],
+          github:
+            "https://github.com/fac25/lisa-karwan-patrick-yassien-database",
+          description:
+            "Our website allows the user to read the recommended restaurants of others and submit their own restaurant recommendation.",
+        },
+        {
+          title: "London Attractions Reviews",
+          img: "src/imgs/london_attractions.png",
+          team: ["Joe", "Paz", "Abdullah", "Sumithra"],
+          github: "https://github.com/fac25/week2-db-Sumithra-Joe-Paz-Abdullah",
+          description:
+            "Our London attractions reviews application allows the user to review the most popular attractions",
+        },
+      ],
     },
     {
       week: 3,
       theme: "Authentication",
-      projects: [],
+      projects: [
+        {
+          title: "SGC board",
+          img: "src/imgs/SGC_board.png",
+          team: ["Alex", "Suraj", "Abdullah", "Paz"],
+          github: "https://github.com/fac25/week3-auth_Suraj-Alex-Abdullah-Paz",
+          description: "A place to post your STOP GO and CONTINUES.",
+        },
+        {
+          title: "Authorise Me",
+          img: "src/imgs/Authorise _Me.png",
+          team: ["Karwan", "Joe", "Manoela", "Yassien"],
+          github:
+            "https://github.com/fac25/Joe-Manoela-Karwan-Yassien-Authentication",
+          description:
+            "A website for users to share stories that they have written and see (and read) stories written by other users.",
+        },
+        {
+          title: "Bookzie",
+          img: "src/imgs/Bookzie.png",
+          team: ["Abby", "Patrick", "Lisa", "Sumithra"],
+          github:
+            "https://github.com/fac25/week3-authentication-Abby-Sumithra-Patrick-Lisa",
+          description:
+            "Our objective was to create a service which would allow our users to log their reading lists as well as recommend the books to others.",
+        },
+      ],
     },
     {
       week: 4,
       theme: "Server-Side App",
-      projects: [],
+      projects: [
+        {
+          title: "Howdie",
+          img: "src/imgs/howdie.png",
+          team: ["Sumithra", "Suraj", "Manoela", "Karwan"],
+          github:
+            "https://github.com/fac25/week4-karwan-manoela-sumithra-suraj",
+          description:
+            "A website for users to share and view other users how to guide.",
+        },
+        {
+          title: "Petsagram",
+          img: "src/imgs/petsagram.png",
+          team: ["Abdullah", "Joe", "Alex", "Lisa"],
+          github: "https://github.com/fac25/week4-alex-abdullah-joe-lisa",
+          description: "A place to post about your pet :)",
+        },
+        {
+          title: "Check-in Questions app.",
+          img: "src/imgs/check-in-question-pool.png",
+          team: ["Abby", "Patrick", "PAz", "Yassien"],
+          github:
+            "https://github.com/fac25/week4-server-side-app-Abby-Patrick-Paz-Yassien",
+          description:
+            "Our objective was to create a service which would allow our users to log their check-in questions as well as see the ones posted by others. The main page would be a collection of all the check-in questions - from the logged-in user.",
+        },
+      ],
     },
     {
       week: 5,
       theme: "Client-Side App",
-      projects: [],
+      projects: [
+        {
+          title: "Flip - Card Memory Game",
+          img: "src/imgs/flip_abby_joe.png",
+          team: ["Abby, Joe"],
+          github: "https://github.com/fac25/week5-Abby-Joe",
+          description:
+            "The user flips two cards. If the two cards match, the user will get one point, and the cards will remain ‘flipped’.",
+        },
+        {
+          title: "PKC",
+          img: "src/imgs/piano_PKC.png",
+          team: ["Abdullah", "Patrick", "Suraj"],
+          github: "https://github.com/fac25/week-5-p-a-s",
+          description:
+            "It's a piano that counts the amount of keys you press. It has sound...",
+        },
+        {
+          title: "Memory game",
+          img: "src/imgs/memory_game_LMA.png",
+          team: ["Lisa", "Manoela", "Yassien"],
+          github: "https://github.com/fac25/fac25-week5-Lisa-Manoela",
+          description:
+            "This is a one-page app using React to create an interactive memory game",
+        },
+        {
+          title: "Hangman",
+          img: "src/imgs/hangman_paz_karwan.png",
+          team: ["Paz", "Karwan"],
+          github: "https://github.com/fac25/week5-paz-karwan",
+          description:
+            "Hangman is a quick and easy game for at least two people that requires nothing more than paper, a pencil, and the ability to spell.",
+        },
+        {
+          title: "Tic Tac Toe",
+          img: "src/imgs/tic_tac_toe.png",
+          team: ["Alex", "Sumithra"],
+          github: "https://github.com/fac25/week5-Alex-Sumithra-ClientReactApp",
+          description: "A Tic Tac Toe game",
+        },
+      ],
     },
     {
       week: 6,
