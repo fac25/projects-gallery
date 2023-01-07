@@ -15,7 +15,48 @@ const data = {
     {
       week: 0,
       theme: "Testing - third project of part time course",
-      projects: [],
+      projects: [
+        {
+          title: "To-Do List-Abby/Patrick",
+          img: "src/imgs/to-do_list_Abby_Patrick.png",
+          team: ["Abby, Patrick"],
+          github: "https://github.com/fac25/Week8_TestingProject_Patrick_Abby",
+          description:
+            "A to-do list tracker- It should allow users to create, complete and delete tasks from a list.",
+        },
+        {
+          title: "To-Do List-Joe/Paz",
+          img: "src/imgs/to-do_list_Joe_Paz.png",
+          team: ["Paz", "Joe"],
+          github: "https://github.com/fac25/Paz-Joe-TODO-List-",
+          description:
+            "This TODO list tracker project will allow the user to create, complete and delete tasks from a list.",
+        },
+        {
+          title: "To-Do List-Lisa/Suraj",
+          img: "src/imgs/to-do_list_Lisa_Suraj.png",
+          team: ["Lisa", "Suraj"],
+          github: "https://github.com/fac25/testing-project-Suraj-Lisa",
+          description:
+            "This TODO list tracker project will allow the user to create, complete and delete tasks from a list.",
+        },
+        {
+          title: "To-Do List-Yassien/Abdullah",
+          img: "src/imgs/to-do_list_Yassien-Abdullah.png",
+          team: ["Yassien", "Abdullah"],
+          github: "https://github.com/fac25/week8-testing-yassien-abdullah",
+          description:
+            "This is a to-do list tracker. It allows users to create, complete and delete tasks from a list.",
+        },
+        {
+          title: "To-Do List-Manoela/Karwan",
+          img: "src/imgs/to-do_list_Manoela_Karwan.png",
+          team: ["Yassien", "Abdullah"],
+          github: "https://github.com/fac25/testing-Manoela-Karwan",
+          description:
+            "This is a to-do list tracker. It allows users to create, complete and delete tasks from a list.",
+        },
+      ],
     },
     {
       week: 1,
