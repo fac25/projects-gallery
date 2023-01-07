@@ -30,7 +30,33 @@ const data = {
     {
       week: 3,
       theme: "Authentication",
-      projects: [],
+      projects: [
+        {
+          title: "SGC board",
+          img: "src/imgs/SGC_board.png",
+          team: ["Alex", "Suraj", "Abdullah", "Paz"],
+          github: "https://github.com/fac25/week3-auth_Suraj-Alex-Abdullah-Paz",
+          description: "A place to post your STOP GO and CONTINUES.",
+        },
+        {
+          title: "Authorise Me",
+          img: "src/imgs/Authorise _Me.png",
+          team: ["Karwan", "Joe", "Manoela", "Yassien"],
+          github:
+            "https://github.com/fac25/Joe-Manoela-Karwan-Yassien-Authentication",
+          description:
+            "A website for users to share stories that they have written and see (and read) stories written by other users.",
+        },
+        {
+          title: "Bookzie",
+          img: "src/imgs/Bookzie.png",
+          team: ["Abby", "Patrick", "Lisa", "Sumithra"],
+          github:
+            "https://github.com/fac25/week3-authentication-Abby-Sumithra-Patrick-Lisa",
+          description:
+            "Our objective was to create a service which would allow our users to log their reading lists as well as recommend the books to others.",
+        },
+      ],
     },
     {
       week: 4,
