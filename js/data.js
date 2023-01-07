@@ -25,7 +25,33 @@ const data = {
     {
       week: 2,
       theme: "Database",
-      projects: [],
+      projects: [
+        {
+          title: "MyMusic",
+          img: "src/imgs/mymusic.png",
+          team: ["Alex", "Suraj", "Abby", "Manoela"],
+          github: "https://github.com/fac25/alex-abby-manoela-suraj-database-B",
+          description:
+            "A music sharing app where you can share your favourite songs for your friends!",
+        },
+        {
+          title: "Finsbo",
+          img: "src/imgs/finsbo.png",
+          team: ["Karwan", "Lisa", "Patrick", "Yassien"],
+          github:
+            "https://github.com/fac25/lisa-karwan-patrick-yassien-database",
+          description:
+            "Our website allows the user to read the recommended restaurants of others and submit their own restaurant recommendation.",
+        },
+        {
+          title: "London Attractions Reviews",
+          img: "src/imgs/london_attractions.png",
+          team: ["JOe", "Paz", "Abdullah", "Sumithra"],
+          github: "https://github.com/fac25/week2-db-Sumithra-Joe-Paz-Abdullah",
+          description:
+            "Our London attractions reviews application allows the user to review the most popular attractions",
+        },
+      ],
     },
     {
       week: 3,
