@@ -327,7 +327,7 @@ const data = {
         },
         {
           title: "JAMP on a Book",
-          img: "", //need to ask for the img
+          img: "src/imgs/JAMP_book.png",
           team: ["Manoela", "Abdullah", "Patrick", "Joe"],
           github: "https://github.com/fac25/week6-J-A-M-P",
           description:
