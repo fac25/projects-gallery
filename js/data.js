@@ -259,7 +259,7 @@ const data = {
           description: "A place to post about your pet :)",
         },
         {
-          title: "Check-in Questions app.",
+          title: "Check-in Questions app",
           img: "src/imgs/check-in-question-pool.png",
           team: ["Abby", "Patrick", "PAz", "Yassien"],
           github:
@@ -276,7 +276,7 @@ const data = {
         {
           title: "Flip - Card Memory Game",
           img: "src/imgs/flip_abby_joe.png",
-          team: ["Abby, Joe"],
+          team: ["Abby", "Joe"],
           github: "https://github.com/fac25/week5-Abby-Joe",
           description:
             "The user flips two cards. If the two cards match, the user will get one point, and the cards will remain ‘flipped’.",

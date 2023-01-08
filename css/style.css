@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: bisque;
+  background-color: #b7d1da;
   padding: 1em;
   font-family: "Roboto", sans-serif;
 }
@@ -26,7 +26,7 @@ h1 {
   text-align: center;
   font-size: 3em;
   font-weight: bold;
-  color: bisque;
+  color: #cbdfbd;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
 }
@@ -50,7 +50,7 @@ h4 {
 }
 
 .project-article {
-  background-color: white;
+  background-color: #f5f5f5;
   border-radius: 1em;
   padding: 1em;
   display: flex;
@@ -66,12 +66,13 @@ h4 {
   text-align: center;
   font-weight: bold;
   padding: 1em;
-  background-color: white;
+  background-color: #95a3a4;
   border-radius: 1em;
+  color: white;
 }
 .project-description {
-  font-style: italic;
   flex-grow: 1;
+  text-align: center;
 }
 .project-image {
   width: 100%;
@@ -97,4 +98,18 @@ h4 {
     max-width: 280px;
     max-height: 195px;
   }
+}
+
+.project-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #f6ae2d;
+}
+
+.project-team {
+  text-align: center;
+  font-style: italic;
+  padding-top: 25px;
 }

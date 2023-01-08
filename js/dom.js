@@ -41,7 +41,7 @@ const renderTeamMember = (tm) => {
   if (peopleObj) {
     html = `<a href="https://github.com/${peopleObj.handle}" target="_blank">${tm}</a>`;
   }
-  return `<span class="team-member"> ${html} </span>`;
+  return `<span class="team-member"> | ${html} </span>`;
 };
 const dom = {
   render,
