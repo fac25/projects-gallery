@@ -5,7 +5,56 @@ const data = {
     {
       week: -2,
       theme: "Markup - first project of part time course",
-      projects: [],
+      projects: [
+        {
+          title: "Sunnyside Agency",
+          img: "src/imgs/sunnyside.png",
+          team: ["Sumithra", "Patrick"],
+          github:
+            "https://github.com/fac25/week2-agencyProject-Patrick-Sumithra",
+          description:
+            "This is a simple fictional agency website, built for learning purposes only. In its current state, it is far from being ready ",
+        },
+        {
+          title: "L&K",
+          img: "src/imgs/L&K.png",
+          team: ["Lisa", "Karwan"],
+          github: "https://github.com/fac25/week2-project-Lisa-Karwan",
+          description:
+            "Mock-up website for L & K agency, offering web development services.",
+        },
+        {
+          title: "Talent Champs",
+          img: "src/imgs/Talent_Champs.png",
+          team: ["Abby", "Manoela", "Abdullah"],
+          github:
+            "https://github.com/fac25/week2-project-Abby-Abdullah-Manoela",
+          description: "a Web Development Agency Website",
+        },
+        {
+          title: "Pseudocoders",
+          img: "src/imgs/Pseudocoders.png",
+          team: ["Yassien", "Suraj"],
+          github: "https://github.com/fac25/week2-markup-Suraj-Yassien",
+          description:
+            "We are an exciting software development startup that specialises in building web applications using HTML, CSS and JavaScript.",
+        },
+        {
+          title: "DesignIY Agency",
+          img: "src/imgs/DesignI_ Agency.png",
+          team: ["Joe", "Alex"],
+          github: "https://github.com/fac25/week2-MarkupProject-Alex-Joe",
+          description:
+            "DesignIY Agency- We Help Design Your Future Our team of professional UI and UX developers are here to help you create the perfect website.",
+        },
+        {
+          title: "Code Digital Experience",
+          img: "src/imgs/CodeDigitalExperience.png",
+          team: ["Paz", "Georgia"],
+          github: "https://github.com/fac25/week2-markup-georgia-paz",
+          description: "A Web Development Agency",
+        },
+      ],
     },
     {
       week: -1,
