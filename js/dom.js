@@ -26,10 +26,13 @@ const renderProject = (project) => {
         <h4 class="project-team">${project.team
           .map(renderTeamMember)
           .join("")}</h4>
-        <div class="project-image-container ${
-          project.img ? `` : `project-image-empty`
-        }">
+          <a href="${
+            project.github
+          }" target="_blank"> <div class="project-image-container ${
+    project.img ? `` : `project-image-empty`
+  }">
         ${project.img ? `<img class="project-image" src="${project.img}">` : ``}
+        </a>
         </div>
         </article>
     `;
