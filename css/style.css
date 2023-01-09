@@ -5,6 +5,8 @@ body {
   background-color: #b7d1da;
   padding: 1em;
   font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin: 0 auto;
 }
 
 a,
