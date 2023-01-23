@@ -139,7 +139,7 @@ const data = {
         {
           title: "To-Do List-Manoela/Karwan",
           img: "src/imgs/to-do_list_Manoela_Karwan.png",
-          team: ["Yassien", "Abdullah"],
+          team: ["Manoela", "Karwan"],
           github: "https://github.com/fac25/testing-Manoela-Karwan",
           description:
             "This is a to-do list tracker. It allows users to create, complete and delete tasks from a list.",
